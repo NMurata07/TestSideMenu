@@ -13,6 +13,7 @@
 		ADCDAFE1221EDE6B00017CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCDAFDF221EDE6B00017CD1 /* Main.storyboard */; };
 		ADCDAFE3221EDE6D00017CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCDAFE2221EDE6D00017CD1 /* Assets.xcassets */; };
 		ADCDAFE6221EDE6D00017CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCDAFE4221EDE6D00017CD1 /* LaunchScreen.storyboard */; };
+		ADCDAFEE221EE3A300017CD1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCDAFED221EE3A300017CD1 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		ADCDAFE2221EDE6D00017CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADCDAFE5221EDE6D00017CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADCDAFE7221EDE6D00017CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCDAFED221EE3A300017CD1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F601A62AE46B03027CE3B581 /* Pods-TestSideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSideMenu.release.xcconfig"; path = "Target Support Files/Pods-TestSideMenu/Pods-TestSideMenu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				ADCDAFE2221EDE6D00017CD1 /* Assets.xcassets */,
 				ADCDAFE4221EDE6D00017CD1 /* LaunchScreen.storyboard */,
 				ADCDAFE7221EDE6D00017CD1 /* Info.plist */,
+				ADCDAFED221EE3A300017CD1 /* RootViewController.swift */,
 			);
 			path = TestSideMenu;
 			sourceTree = "<group>";
@@ -85,7 +88,6 @@
 				A5B1DC60B37DB3F08D699182 /* Pods-TestSideMenu.debug.xcconfig */,
 				F601A62AE46B03027CE3B581 /* Pods-TestSideMenu.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,6 +213,7 @@
 			files = (
 				ADCDAFDE221EDE6B00017CD1 /* ViewController.swift in Sources */,
 				ADCDAFDC221EDE6B00017CD1 /* AppDelegate.swift in Sources */,
+				ADCDAFEE221EE3A300017CD1 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
